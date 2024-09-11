@@ -6,14 +6,13 @@
 #define MODERN_COMPILER_IMPLEMENTATION_IN_C_UTIL_H
 
 typedef char *string;
-string String(char *);
-
 typedef char bool;
+
 #define TRUE 1
 #define FALSE 0
 
 void *checked_malloc(int);
-
+string String(char *);
 
 
 #endif //MODERN_COMPILER_IMPLEMENTATION_IN_C_UTIL_H
